@@ -1,6 +1,6 @@
 {
   "name": "cology",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Cology is a simple way to clean up your logs",
   "main": "dist/index.js",
   "files": [
