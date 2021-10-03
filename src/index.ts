@@ -59,3 +59,5 @@ export default class Cology {
     this._border = GlobalBorder.instance;
   }
 }
+
+module.exports = Cology;
