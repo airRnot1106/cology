@@ -2,7 +2,10 @@
   "name": "cology",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
