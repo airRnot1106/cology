@@ -64,7 +64,7 @@ class Warn implements Level {
     return this.color(
       log
         .split('\n')
-        .map((message) => chalk.white('[Warn] ') + message)
+        .map((message) => chalk.white('[WARN] ') + message)
         .join('\n')
     );
   }
