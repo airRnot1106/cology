@@ -119,3 +119,6 @@ dist
 
 # History
 .history/
+
+# Test
+src/test.ts
