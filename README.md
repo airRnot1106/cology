@@ -31,10 +31,10 @@ Cology.log('error', 'Error Message');
 Cology.setBorder('--------');
 Cology.log('warn', 'Title:\nWarn Message');
 /*
-	--------
-	[WARN] Title:
-	[WARN] Warn Message
-	--------
+--------
+[WARN] Title:
+[WARN] Warn Message
+--------
 	
 */
 ```
