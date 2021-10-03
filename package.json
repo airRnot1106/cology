@@ -1,7 +1,7 @@
 {
   "name": "cology",
   "version": "0.0.3",
-  "description": "",
+  "description": "Cology is a simple way to clean up your logs",
   "main": "dist/index.js",
   "files": [
     "dist",
@@ -13,7 +13,16 @@
     "build": "tsc",
     "test": "node test/test.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cology",
+    "log",
+    "logging",
+    "console",
+    "formatting",
+    "style",
+    "text",
+    "cli"
+  ],
   "author": "airRnot1106 <yngw.rintaro@gmail.com>",
   "license": "MIT",
   "devDependencies": {
