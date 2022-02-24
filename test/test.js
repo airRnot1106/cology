@@ -1,4 +1,4 @@
-const Cology = require('../dist/index');
+const { Cology } = require('../dist/index');
 
 //Normal Test
 Cology.log('debug', 'debug test');
@@ -7,6 +7,7 @@ Cology.log('success', 'success test');
 Cology.log('warn', 'warn test');
 Cology.log('error', 'error test');
 Cology.log('fatal', 'fatal test');
+Cology.log('info', 'hoge', 'fuga', 'piyo');
 
 //Border Test
 Cology.setBorder('--------');

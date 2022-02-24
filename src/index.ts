@@ -37,11 +37,11 @@ class TemporaryBorder extends Border {
   }
 }
 
-export default class Cology {
+export class Cology {
   private static readonly _level = LevelFactory.instance;
   private static _border = GlobalBorder.instance;
-  static log(level: LevelNames[number], message: string) {
-    const formatted = this._level.format(level, message);
+  static log(level: LevelNames[number], ...message: string[]) {
+    const formatted = this._level.format(level, message.join(' '));
     const bordered = this._border.insert(formatted);
     console.log(bordered);
   }
@@ -59,5 +59,3 @@ export default class Cology {
     this._border = GlobalBorder.instance;
   }
 }
-
-module.exports = Cology;
