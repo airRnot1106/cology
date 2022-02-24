@@ -1,8 +1,6 @@
 # Cology
 
-[![build](https://github.com/airRnot1106/cology/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/airRnot1106/cology/actions/workflows/node.js.yml)	![npm](https://img.shields.io/npm/dt/cology)	[![GitHub issues](https://img.shields.io/github/issues/airRnot1106/cology)](https://github.com/airRnot1106/cology/issues)	[![GitHub stars](https://img.shields.io/github/stars/airRnot1106/cology)](https://github.com/airRnot1106/cology/stargazers)	[![GitHub license](https://img.shields.io/github/license/airRnot1106/cology)](https://github.com/airRnot1106/cology/blob/main/LICENSE)	<img src="https://img.shields.io/badge/-Node.js-331212.svg?logo=node.js&style=popout">	<img src="https://img.shields.io/badge/-Npm-CB3837.svg?logo=npm&style=popout">
-
-
+[![build](https://github.com/airRnot1106/cology/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/airRnot1106/cology/actions/workflows/node.js.yml) ![npm](https://img.shields.io/npm/dt/cology) [![GitHub issues](https://img.shields.io/github/issues/airRnot1106/cology)](https://github.com/airRnot1106/cology/issues) [![GitHub stars](https://img.shields.io/github/stars/airRnot1106/cology)](https://github.com/airRnot1106/cology/stargazers) [![GitHub license](https://img.shields.io/github/license/airRnot1106/cology)](https://github.com/airRnot1106/cology/blob/main/LICENSE) <img src="https://img.shields.io/badge/-Node.js-331212.svg?logo=node.js&style=popout"> <img src="https://img.shields.io/badge/-Npm-CB3837.svg?logo=npm&style=popout">
 
 ## Highlights
 
@@ -21,9 +19,9 @@ $ npm install cology
 ## Usage
 
 ```js
-const Cology = require('cology');
+const { Cology } = require('cology');
 /*TS
-import Cology from 'cology'
+import { Cology } from 'cology'
 */
 
 Cology.log('info', 'Info Message');
